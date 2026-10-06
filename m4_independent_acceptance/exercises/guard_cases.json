@@ -1,0 +1,20 @@
+[
+  {
+    "label": "an unrelated file",
+    "tool": "Write",
+    "path": "config/retrieval-notes.md",
+    "expect": "block"
+  },
+  {
+    "label": "its own plan",
+    "tool": "Edit",
+    "path": "plan.json",
+    "expect": "block"
+  },
+  {
+    "label": "outside the project",
+    "tool": "Write",
+    "path": "../elsewhere.txt",
+    "expect": "block"
+  }
+]

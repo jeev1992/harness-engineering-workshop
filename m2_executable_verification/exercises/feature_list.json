@@ -1,0 +1,11 @@
+[
+  {
+    "id": "document-list",
+    "status": "passing",
+    "evidence": {
+      "command": "kb list",
+      "observed": "exit 0: assumed"
+    }
+  }
+]
+

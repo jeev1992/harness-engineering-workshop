@@ -1,0 +1,7 @@
+Team Meeting
+
+The team agreed that deletion must update both source documents and the
+metadata index.
+
+The checker will re-run verification instead of trusting recorded claims.
+

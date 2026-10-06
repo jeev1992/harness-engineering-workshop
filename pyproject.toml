@@ -1,0 +1,9 @@
+[project]
+name = "harness-engineering-workshop"
+version = "0.1.0"
+description = "A curated four-hour, Python-only workshop on harness engineering."
+requires-python = ">=3.12"
+dependencies = []
+
+[tool.uv]
+package = false

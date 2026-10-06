@@ -1,0 +1,8 @@
+{
+  "work_item": "Implement document deletion end to end",
+  "allowed_paths": [
+    "kb/kb.py",
+    "kb/test_kb.py"
+  ],
+  "next_action": "Add a failing test for removal from the document file and metadata index"
+}

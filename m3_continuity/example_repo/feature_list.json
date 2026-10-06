@@ -1,0 +1,20 @@
+[
+  {
+    "id": "document-listing",
+    "status": "passing",
+    "evidence": {
+      "command": "kb list",
+      "observed": "{\"documents\":[{\"filename\":\"architecture-notes.md\",\"id\":\"architecture-notes\",\"lines\":7,\"title\":\"Architecture Notes\"},{\"filename\":\"retrieval-plan.md\",\"id\":\"retrieval-plan\",\"lines\":7,\"title\":\"Retrieval Plan\"},{\"filename\":\"team-meeting.txt\",\"id\":\"team-meeting\",\"lines\":6,\"title\":\"Team Meeting\"}]}"
+    }
+  },
+  {
+    "id": "delete-command",
+    "status": "not-started",
+    "evidence": {}
+  },
+  {
+    "id": "import-command",
+    "status": "not-started",
+    "evidence": {}
+  }
+]

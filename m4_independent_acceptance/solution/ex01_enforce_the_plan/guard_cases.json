@@ -1,0 +1,69 @@
+[
+  {
+    "label": "an unrelated file",
+    "tool": "Write",
+    "path": "config/retrieval-notes.md",
+    "expect": "block"
+  },
+  {
+    "label": "its own plan",
+    "tool": "Edit",
+    "path": "plan.json",
+    "expect": "block"
+  },
+  {
+    "label": "outside the project",
+    "tool": "Write",
+    "path": "../elsewhere.txt",
+    "expect": "block"
+  },
+  {
+    "label": "a lookalike of an allowed file",
+    "tool": "Write",
+    "path": "kb/kb.py.bak",
+    "expect": "block"
+  },
+  {
+    "label": "a directory that only shares a prefix",
+    "tool": "Write",
+    "path": "docs_extra/notes.md",
+    "expect": "block"
+  },
+  {
+    "label": "any edit before a plan exists",
+    "tool": "Edit",
+    "path": "kb/kb.py",
+    "plan": null,
+    "expect": "block"
+  },
+  {
+    "label": "the planned code",
+    "tool": "Edit",
+    "path": "kb/kb.py",
+    "expect": "allow"
+  },
+  {
+    "label": "deep inside an allowed directory",
+    "tool": "Write",
+    "path": "docs/guides/delete.md",
+    "expect": "allow"
+  },
+  {
+    "label": "work-tracking state",
+    "tool": "Write",
+    "path": "feature_list.json",
+    "expect": "allow"
+  },
+  {
+    "label": "reading any file",
+    "tool": "Read",
+    "path": "config/retrieval-notes.md",
+    "expect": "allow"
+  },
+  {
+    "label": "a shell command",
+    "tool": "Bash",
+    "command": "python -m unittest kb.test_kb",
+    "expect": "allow"
+  }
+]
